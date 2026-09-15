@@ -1,0 +1,54 @@
+profile_short_name:Et_NA_F_01
+profile_designer:Stijn Dings
+profile_description:Targets:- Start: 33°C- CC: 4:21 @ 163.2°C- FC: 8:25 @ 204.8°C- Drop: 9:10 @ 210°C- RoR decline interval: 3:20–6:40
+profile_schema_version:1.4
+emulation_mode:0.0
+recommended_level:0.2353
+expect_fc:204.8
+expect_colrchange:163.2
+preheat_power:420.0
+preheat_nominal_temperature:240.0
+preheat_min_power_offset:10.0
+preheat_min_time:20.0
+preheat_max_time:60.0
+preheat_check_gradient_time:30.0
+preheat_target_in_future:30.0
+preheat_mode:5.0
+preheat_end_detection_count:5.0
+preheat_temperature_proximity:8.5
+roast_required_power:1200.0
+roast_min_desired_rate_of_rise:-1.0
+roast_target_in_future:25.0
+roast_use_prediction_method:1.0
+roast_target_timeshift:1.0
+roast_end_by_time_ratio:1.0
+roast_PID_Kp:0.7172
+roast_PID_Ki:0.0
+roast_PID_Kd:3.55
+roast_PID_min_i:0.0
+roast_PID_max_i:0.0
+roast_PID_iLimitApplyAtZero:1.0
+roast_PID_differentialOnError:1.0
+specific_heat_adj_upper_temperature_limit:180.0
+specific_heat_adj_lower_temperature_limit:80.0
+specific_heat_adj_multiplier_Kp:2.1
+specific_heat_adj_multiplier_Kd:4.0
+zone1_time_start:0.0
+zone1_time_end:0.0
+zone1_multiplier_Kp:1.0
+zone1_multiplier_Kd:1.0
+zone1_boost:0.0
+zone2_time_start:0.0
+zone2_time_end:0.0
+zone2_multiplier_Kp:1.0
+zone2_multiplier_Kd:1.0
+zone2_boost:0.0
+corner1_time_start:0.0
+corner1_time_end:0.0
+cooldown_hi_speed:16500.0
+cooldown_lo_speed:15500.0
+cooldown_lo_temperature:100.0
+roast_levels:208.0,216.5,218.0,219.5,222.0,224.0,227.1
+profile_modified:15/09/2026 18:23:04 UTC
+roast_profile:0.0,30.0,0,0.0,216.5621,164.2,590.4317,214.5,254.2184,177.1,600.4317,214.5,620.4317,214.5,610.4317,214.5,0,0.0
+fan_profile:0.0,14000.0,0,0.0,287.85,14000.0,505.0,14700.0,460.0,14700.0,576.0,14700.0,720.0,14700.0,697.5,14700.0,0,0.0
