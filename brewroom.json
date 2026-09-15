@@ -3,6 +3,26 @@
   "beans": [],
   "profiles": [
     {
+      "id": "p7177810",
+      "name": "Et_NA_F_01",
+      "description": "\nTargets:\n- Start: 33°C\n- CC: 4:21 @ 163.2°C\n- FC: 8:25 @ 204.8°C\n- Drop: 9:10 @ 210°C\n- RoR decline interval: 3:20–6:40",
+      "designer": "Stijn Dings",
+      "fcTemp": 204.8,
+      "ccTemp": 163.2,
+      "dropTemp": 210,
+      "dropTime": 550,
+      "_dropTimeV": 2,
+      "recommendedLevel": 0.2353,
+      "dir": "profiles/Et_NA_F_01",
+      "files": [
+        "Eth_NA_Chelchele_F.kpro"
+      ],
+      "sourceFileName": "Eth_NA_Chelchele_F.kpro",
+      "uploadedAt": "2026-09-15T18:25:17.781Z",
+      "notes": "",
+      "tag": ""
+    },
+    {
       "id": "p7032770",
       "name": "Eth_N_Chel2_SmoothV3_AntiCrash",
       "description": "\nSmoothed v3 AntiCrash — conservative 50 g version. Same roast-temperature curve and PID as v2; fan adjusted for stronger early bean movement and a flatter first-crack transition to reduce airflow-induced RoR crash/flick risk.\nTargets:\n- Start: 30°C\n- CC: 3:49 @ 155°C\n- FC: 7:15 @ 204°C\n- Drop: 8:00 @ 209°C\n- RoR decline interval: 3:30–7:00\n- Use only after Fan Preview confirms continuous bean circulation.",
